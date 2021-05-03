@@ -1,0 +1,107 @@
+body{
+    background: chartreuse url(assets/Printbg.gif)no-repeat fixed top center;
+    background-size: 100% 100%;
+}
+.contentWrapper{
+    margin: auto;
+    max-width: 1170px;
+    padding: 0 3.0em;
+}
+
+#headerContent{
+    position: fixed;
+    height: 175px;
+    border: 2px solid black;
+    width: 100%;    
+    top: 0;
+    left: 0px;
+    background-image: url(assets/rockyBanner.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+    
+}
+h1{
+    font-size: 28px;
+    left: 10px;
+    color: white;
+    text-shadow: 2px 2px grey;    
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 400px;
+    bottom: .85em;
+    z-index: 1;
+}
+svg.movingBar{
+    position: relative;
+    bottom: 170px;
+    float: left;
+    height : 7em;
+    width: 500px;
+    /* border: 2px solid black;margin: 0; padding: 0; */
+    
+}
+
+section#main{
+    position: relative;    
+    background-size: 100% 100%;
+    padding: 12.5em 25.5em 12.5em 25.5em;
+    
+}
+
+div.panel{
+    position: relative;
+    margin: 2.5em 2.5em 2.5em ;
+    display: inline-block;
+    width: 200px;
+    height: 275px;
+    border: 2px solid gray;
+    left: 25em;
+    box-shadow: 2px 2px 7px rgb(124, 124, 124); /*offset-x | offset-y | blur-radius | color*/
+    
+}
+section#dogHikeVideo{
+    float: left;
+    position: fixed;
+    border: 2px solid black;
+    width: 750px;
+    height: 375px;
+    top: 200px;
+    left: 50px;
+}
+
+footer{
+    position: relative;
+    background-color: #40362f;   
+    background-size: 100% 100%;   
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    right: 0px;
+    top: 126px;
+    margin: 0;
+}
+footer ul #menuFooter{
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0px;
+}
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+footer a, footer a:visited{
+    color: grey;
+    text-decoration: none;
+}
+footer a:hover{
+    columns: #fff;
+    text-decoration: underline;
+}
