@@ -1,7 +1,7 @@
 body{
-    background: #fff url(assets/american-bulldog-4.JPG) no-repeat fixed center;
-    background-size: 80% 100%; 
-        
+    background: chartreuse url(assets/american-bulldog-4.JPG) fixed left;
+    background-size: 100% 100%;
+    
 }
 .contentWrapper{
     margin: auto;
