@@ -1,6 +1,7 @@
 body{
-    background: chartreuse url(assets/Printbg.gif)no-repeat fixed top center;
+    background: chartreuse url(assets/american-bulldog-4.jpg) fixed left;
     background-size: 100% 100%;
+    
 }
 .contentWrapper{
     margin: auto;
