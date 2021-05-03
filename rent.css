@@ -16,7 +16,7 @@ body{
     width: 100%;    
     top: 0;
     left: 0px;
-    background-image: url(../assets/rockyBanner.GIF);
+    background-image: url(assets/rockyBanner.GIF);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
@@ -59,6 +59,7 @@ div.panel{
     border: 2px solid gray;
     left: 30em;
     box-shadow: 2px 2px 7px rgb(124, 124, 124); /*offset-x | offset-y | blur-radius | color*/
+    align-content: center;
     
 }
 .panel#dogs{
@@ -85,6 +86,18 @@ div.panel{
     left: 25%;
     background opacity: 75%;
 }
+div#priority button{
+    position: absolute;
+    left: 25px;
+}
+div#kennels button{
+    position: absolute;
+    left: 45px;
+}
+div#dogs button{
+    position: absolute;
+    left: 50px;
+}
 h2{
     
     position: relative;
@@ -102,19 +115,23 @@ section#dogHikeVideo{
     top: 275px;
     left: 220px;
 }
+iframe {
+    position: relative;
+}
 svg.poly{
     position: absolute;
     float: left;
     top;
 }
     
-}
+
 
 
 footer{
     position: relative;
     background-color: #40362f;   
     background-size: 100% 100%;   
+    opacity: 55%;
     font-size: 16px;
     color: #fff;
     text-align: center;
@@ -122,6 +139,8 @@ footer{
     right: 0px;
     top: 126px;
     margin: 0;
+    padding 0 0 0 5px;
+    /* text-shadow: 2px 2px 2px 2px white; */
 }
 footer ul #menuFooter{
     display: inline-block;
