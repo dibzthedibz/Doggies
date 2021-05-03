@@ -1,5 +1,5 @@
 body{
-    background: chartreuse url(assets/american-bulldog-4.jpg) fixed left;
+    background: chartreuse url(assets/american-bulldog-4.JPG) fixed left;
     background-size: 100% 100%;
     
 }
@@ -16,7 +16,7 @@ body{
     width: 100%;    
     top: 0;
     left: 0px;
-    background-image: url(assets/rockyBanner.gif);
+    background-image: url(assets/rockyBanner.GIF);
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1;
