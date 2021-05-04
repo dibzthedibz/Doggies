@@ -61,30 +61,30 @@ section#main{
 
 div.panel{
     position: relative;
-    margin: 2.5em 2.5em 5.5em 2.5em;
-    /* display: inline-block; */
+    margin: 5em 0em;
+    display: block;
     width: 414px;
     height: 270px;
     border: 2px solid gray;
-    left: 30em;
+    left: 36em;
     box-shadow: 2px 2px 7px rgb(124, 124, 124); /*offset-x | offset-y | blur-radius | color*/
-    align-content: center;
+    /* align-content: center; */
     
 }
 .panel#dogs img{
-    position: absolute;
+    
     border: 2px outset green;
     
     
 }
 .panel#kennels img{
-    position: absolute;
+    
     border: 2px inset grey;
     background: white;
 
 }
 .panel#history img{
-    position: absolute;
+    
     background: white;
     border: 2px outset green;
 
