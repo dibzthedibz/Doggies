@@ -89,7 +89,7 @@ div.panel{
     border: 2px outset green;
 
 }
-.panel#priority{
+.panel#priority img{
     background: white;
     border: 2px inset green;
 }
