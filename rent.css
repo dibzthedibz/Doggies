@@ -22,19 +22,16 @@ body.background{
     width: 100%;    
     top: 0;
     left: 0px;
-    /* background-image: url(assets/rockyBanner.GIF); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 1;
-    border-bottom: 15px ridge black;
+    z-index: 1;    
    }
 #bannerHead img{
     position: absolute;
     float: left;
     width: 100%;
-    
+    border-bottom: 25px inset black;
 }
 h1{
+    position: fixed;
     font-size: 28px;
     left: 10px;
     color: white;
@@ -46,8 +43,8 @@ h1{
     z-index: 1;
 }
 svg.movingBar{
-    position: relative;
-    bottom: 170px;
+    position: fixed;
+    top: -99.6px;
     float: left;
     height : 7em;
     width: 500px;
