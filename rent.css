@@ -61,8 +61,8 @@ section#main{
 
 div.panel{
     position: relative;
-    margin: 2.5em 2.5em 2.5em ;
-    display: inline-block;
+    margin: 2.5em 2.5em 5.5em 2.5em;
+    /* display: inline-block; */
     width: 414px;
     height: 270px;
     border: 2px solid gray;
